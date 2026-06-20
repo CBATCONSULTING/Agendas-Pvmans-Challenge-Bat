@@ -52,6 +52,7 @@
     header h1 { margin: 0 0 8px; font-size: clamp(24px, 4vw, 38px); }
     header p { margin: 4px 0; color: rgba(255,255,255,.84); }
     header p.fixed-slots-note { color: #ffea00; font-weight: 700; }
+    header p.refresh-note { color: #ffea00; font-weight: 700; margin-top: 8px; }
     .header-logo {
       height: 74px;
       max-width: 220px;
@@ -69,8 +70,10 @@
     }
     .week-card h2 { margin: 0 0 12px; font-size: 20px; }
     .table-wrap { overflow-x: auto; }
-    table { width: 100%; border-collapse: collapse; min-width: 980px; }
-    th, td { border: 1px solid var(--line); padding: 9px; vertical-align: top; }
+    table { width: 100%; border-collapse: collapse; min-width: 1280px; table-layout: fixed; }
+    col.day-col { width: 92px; }
+    col.slot-col { width: 58px; }
+    th, td { border: 1px solid var(--line); padding: 9px; vertical-align: top; overflow-wrap: anywhere; }
     th { background: #f0f4fa; position: sticky; top: 0; z-index: 1; }
     tr.day-normal td.day, tr.day-normal td.slot, td.day-normal { background: #ffffff; }
     tr.day-alt td.day, tr.day-alt td.slot, td.day-alt { background: #f6f8fb; }
@@ -82,6 +85,7 @@
       padding: 7px 8px;
       margin: 0 0 6px;
       line-height: 1.25;
+      width: 100%;
     }
     .event:last-child { margin-bottom: 0; }
     .event .time { display: block; font-weight: 700; margin-bottom: 3px; font-size: 13px; }
@@ -110,7 +114,8 @@
       <div class="header-text">
         <h1>Agendas PVmans Challenge Bat</h1>
         <p class="fixed-slots-note">Les RDV proposés correspondent à des horaires fixes et ne sont pas des plages horaires modulables.</p>
-        <p>Dernière mise à jour : 20/06/2026 à 14:54</p>
+        <p>Dernière mise à jour : 20/06/2026 à 15:01</p>
+        <p class="refresh-note">Pensez à rafraîchir votre navigateur.</p>
       </div>
       <img class="header-logo" src="https://static.wixstatic.com/media/9c09bd_f289e680cd854593bac8c026d220825a.png" alt="Challenge Bat">
     </div>
@@ -121,6 +126,11 @@
           <h2>Semaine 26 — 2026</h2>
           <div class="table-wrap">
             <table>
+              <colgroup>
+                <col class="day-col">
+                <col class="slot-col">
+                <col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col">
+              </colgroup>
               <thead>
                 <tr>
                   <th>Jour</th>
@@ -139,6 +149,11 @@
           <h2>Semaine 27 — 2026</h2>
           <div class="table-wrap">
             <table>
+              <colgroup>
+                <col class="day-col">
+                <col class="slot-col">
+                <col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col">
+              </colgroup>
               <thead>
                 <tr>
                   <th>Jour</th>
@@ -157,6 +172,11 @@
           <h2>Semaine 28 — 2026</h2>
           <div class="table-wrap">
             <table>
+              <colgroup>
+                <col class="day-col">
+                <col class="slot-col">
+                <col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col">
+              </colgroup>
               <thead>
                 <tr>
                   <th>Jour</th>
@@ -175,6 +195,11 @@
           <h2>Semaine 29 — 2026</h2>
           <div class="table-wrap">
             <table>
+              <colgroup>
+                <col class="day-col">
+                <col class="slot-col">
+                <col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col">
+              </colgroup>
               <thead>
                 <tr>
                   <th>Jour</th>
@@ -193,6 +218,11 @@
           <h2>Semaine 30 — 2026</h2>
           <div class="table-wrap">
             <table>
+              <colgroup>
+                <col class="day-col">
+                <col class="slot-col">
+                <col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col">
+              </colgroup>
               <thead>
                 <tr>
                   <th>Jour</th>
@@ -211,6 +241,11 @@
           <h2>Semaine 31 — 2026</h2>
           <div class="table-wrap">
             <table>
+              <colgroup>
+                <col class="day-col">
+                <col class="slot-col">
+                <col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col">
+              </colgroup>
               <thead>
                 <tr>
                   <th>Jour</th>
@@ -229,6 +264,11 @@
           <h2>Semaine 32 — 2026</h2>
           <div class="table-wrap">
             <table>
+              <colgroup>
+                <col class="day-col">
+                <col class="slot-col">
+                <col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col"><col class="tech-col">
+              </colgroup>
               <thead>
                 <tr>
                   <th>Jour</th>
